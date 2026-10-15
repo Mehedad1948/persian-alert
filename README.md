@@ -1,5 +1,7 @@
 # Persian Alert
 
+**English** | [فارسی](README.fa.md)
+
 A tiny Windows tray app that **beeps when you start typing in Persian**, so you notice before you've written a whole sentence in the wrong keyboard layout.
 
 - Beeps **once** when Persian typing starts, then stays quiet until you type in another language or switch to a different window.
@@ -14,7 +16,7 @@ Persian Alert only looks at each typed character in memory to decide whether it 
 
 ## Install
 
-1. Download `PersianAlert.exe` from the [latest release](../../releases/latest).
+1. Download `PersianAlert.exe` from the [latest release](https://github.com/Mehedad1948/persian-alert/releases/latest).
 2. Put it in a permanent folder, for example `C:\Users\<you>\Apps\PersianAlert\`. Its `settings.ini` is created next to it.
 3. Double-click it. A notification confirms it is running; the icon sits in the tray (click **^** next to the clock if you don't see it).
 4. Right-click the tray icon → **Start with Windows** to launch it automatically.
