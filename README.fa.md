@@ -33,7 +33,8 @@
 
 - حروف تایپ‌شده فقط در حافظه بررسی می‌شوند. چیزی ذخیره یا ارسال نمی‌شود و برنامه کدی برای اتصال به اینترنت ندارد.
 - کل کد در [`src/PersianAlert.ahk`](src/PersianAlert.ahk) است.
-- ممکن است آنتی‌ویروس هشدار بدهد؛ این برای برنامه‌های AutoHotkey رایج است. اگر نمی‌خواهید exe را اجرا کنید، [AutoHotkey v2](https://www.autohotkey.com/) را نصب کنید و `src/PersianAlert.ahk` را اجرا کنید.
+- اسکن نسخه‌ی 1.0.0 در [VirusTotal](https://www.virustotal.com/gui/file/7bc4e97504a7260b590dc4dd1fee0798a12f0b35072074025b23f1b499570ce3): هیچ آنتی‌ویروسی آن را مشکوک تشخیص نداد.
+- با این حال ممکن است بعضی آنتی‌ویروس‌ها هشدار بدهند؛ این برای برنامه‌های AutoHotkey رایج است. اگر نمی‌خواهید exe را اجرا کنید، [AutoHotkey v2](https://www.autohotkey.com/) را نصب کنید و `src/PersianAlert.ahk` را اجرا کنید.
 - برای بررسی فایل دانلودشده، خروجی `Get-FileHash PersianAlert.exe` را با فایل `.sha256` همان نسخه مقایسه کنید.
 
 ## توسعه

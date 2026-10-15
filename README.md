@@ -31,7 +31,8 @@ If Windows shows "Windows protected your PC", click **More info → Run anyway**
 
 - Typed characters are checked in memory only. Nothing is saved or sent, and there is no network code.
 - All the code is in [`src/PersianAlert.ahk`](src/PersianAlert.ahk).
-- Antivirus may flag it, which is common for AutoHotkey apps. To avoid the exe, install [AutoHotkey v2](https://www.autohotkey.com/) and run `src/PersianAlert.ahk` instead.
+- v1.0.0 scan: [VirusTotal](https://www.virustotal.com/gui/file/7bc4e97504a7260b590dc4dd1fee0798a12f0b35072074025b23f1b499570ce3), no engine flagged it.
+- Some antivirus may still flag it, which is common for AutoHotkey apps. To avoid the exe, install [AutoHotkey v2](https://www.autohotkey.com/) and run `src/PersianAlert.ahk` instead.
 - To verify a download, compare `Get-FileHash PersianAlert.exe` with the release's `.sha256` file.
 
 ## Develop
